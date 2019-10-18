@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios"
 import SearchForm from "./SearchForm";
-
+import CharacterCard from "./CharacterCard"
 
 
 export default function CharacterList() {
@@ -49,16 +49,7 @@ const handleInputChange = event => {
           placeholder="search by name"
           autoComplete="off"
         />
-          {/* {characterData.map(data => {
-        return (
-          <div className ="character-list" key = {data.id}>
-              <h2>{characterData.name}</h2>
-              <h3>{characterData.status}</h3>
-              <h3>{characterData.species}</h3>
-              <h3>{characterData.type}</h3>
-          </div>
-        )
-      })} */}
+  
 
       </form>
   
@@ -68,10 +59,10 @@ const handleInputChange = event => {
       {characterData.map(data => {
         return (
           <div className ="character-list" key = {data.id}>
-              <h2>{data.name}</h2>
-              <h3>{data.status}</h3>
-              <h3>{data.species}</h3>
-              <h3>{data.type}</h3>
+            
+            <CharacterCard name = {data.name} status = {data.status} species = {data.species} type = {data.type}/>
+            
+             
           </div>
         )
       })}
