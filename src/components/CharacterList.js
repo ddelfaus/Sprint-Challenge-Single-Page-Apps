@@ -34,7 +34,7 @@ const handleInputChange = event => {
 
   return (
     <section className="character-list">
-      <h2>TODO: `array.map()` over your state here!</h2>
+    
 
 
       <form className="search">

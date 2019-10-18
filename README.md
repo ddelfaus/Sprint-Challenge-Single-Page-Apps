@@ -27,7 +27,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer:  
+Client side routing allows you to build single page web apps without the page refreshing as you go to different nav components. This allows less loading and data being cleared on that web page.
+
 
 ## Project Set Up
 

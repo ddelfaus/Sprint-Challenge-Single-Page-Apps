@@ -5,9 +5,9 @@ body {
 }
 
 main {
-  /* width: 85vw; */
-  /* min-height: 80vh; */
-  /* max-width: 1024px; */
+  width: 85vw; 
+   min-height: 80vh; 
+   max-width: 1024px; 
   margin: 35px auto;
   background: #fff;
   padding: 15px;
@@ -27,12 +27,12 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-} */
+} 
 
 header h1 {
   text-align: center;

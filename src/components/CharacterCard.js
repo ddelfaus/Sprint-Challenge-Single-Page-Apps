@@ -14,13 +14,13 @@ export default function CharacterCard(props) {
       <Card body>
         <CardTitle>Name: {props.name}</CardTitle>
         <CardText>Status: {props.status}.</CardText>
-       
-      </Card>
-    </Col>
-    <Col sm="6">
-      <Card body>
         <CardTitle>Species: {props.species}</CardTitle>
         <CardText>Type: {props.type}</CardText>
+      </Card>
+    </Col>
+    <Col sm="10">
+      <Card body>
+      
        
       </Card>
     </Col>
